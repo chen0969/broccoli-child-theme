@@ -1,0 +1,20 @@
+/**
+Theme Name: Broccoli-test (Astra child)
+Author: Jing-An Chen | Ana Amaya | Jeffrey Arbutante | Joelife Pacapac
+Author URI: https://broccoli-design.great-site.net
+Description: the child theme base on Astra, edited by Broccoli.
+Version: 1.1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: broccoli-test
+Template: astra
+*/
+
+/* broccoli customize */
+.l-headerTest{
+    color: white;
+    font-size: large;
+    text-shadow: 3px 3px 3px black;
+    font-weight: 900;
+    background-color: red;
+}
