@@ -22,7 +22,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	astra_content_after();
 	astra_footer_before();
 	astra_footer();
+	// my codes here
 	web_friends();
+	// end of my code
 	astra_footer_after(); 
 ?>
 	</div><!-- #page -->

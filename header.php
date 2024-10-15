@@ -65,11 +65,17 @@ if (! defined('ABSPATH')) {
 		<?php
 		astra_content_before();
 		?>
-		<span>
-			<h3>Finds us on social media</h3>
-			<button>ig</button>
-			<button>fb</button>
-		</span>
+		<!-- req 7 -->
+		<?php if (!is_front_page() && !is_home()) : ?>
+			<div class="container">
+				<div class="row">
+					<h3 class="col-md-6 col-12">Finds us on social media</h3>
+					<button class="col-md-3 col-6"><a href="https://broccoli-design.great-site.net">Portfolio</a></button>
+					<button class="col-md-3 col-6"><a href="https://www.algonquincollege.com/mediaanddesign/program/interactive-media-design">IMD page</a></button>
+				</div>
+			</div>
+		<?php endif; ?>
+		<!-- end of req 7 -->
 		<div id="content" class="site-content">
 			<div class="ast-container">
 				<?php astra_content_top(); ?>
